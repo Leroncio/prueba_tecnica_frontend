@@ -9,10 +9,9 @@ export const deleteUser = async (uuid) => {
     }
 
     const {data} = await userApi.post(url,body);
-    return data;
+      return data;
   
     } catch (error) {
-      console.log(error);
-      throw new Error('Error delete users');
+      return error;
     }
   };

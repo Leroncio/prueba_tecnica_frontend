@@ -6,3 +6,7 @@
 .table-container{
   min-height: 50vh;
 }
+
+.react-date-picker__wrapper {
+  border: transparent !important;
+}
