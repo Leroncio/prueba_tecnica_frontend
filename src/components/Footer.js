@@ -10,7 +10,7 @@ export const Footer = () => {
                     <p className="text-sm text-gray-500">Prueba téctica para Grupo Avanza</p>
                     <div className="flex mt-3 -mx-2 sm:mt-0">
                         <p className="mx-2 text-sm text-gray-500 transition-colors duration-300 hover:text-gray-500 dark:hover:text-gray-300">
-                            Desarrollado por <a href="https://github.com/Leroncio" target="_blank" aria-label="Github">Eduardo Araya</a>
+                            Desarrollado por <a href="https://github.com/Leroncio" target="_blank" rel="noreferrer" aria-label="Github">Eduardo Araya</a>
                         </p>
                     </div>
                 </div>
